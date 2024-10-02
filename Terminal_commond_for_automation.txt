@@ -1,0 +1,5 @@
+1. cd path\to\your\notebook\directory
+
+2. jupyter nbconvert --to script Weather_realtime_data_pipeline.ipynb
+
+3. python Weather_realtime_data_pipeline.py

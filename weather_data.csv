@@ -1,0 +1,4 @@
+timestamp,city,temperature,humidity,pressure,weather,wind_speed,season
+2024-10-02 20:20:44.190481,Delhi,33.05,49,1002,haze,0,Post-monsoon
+2024-10-02 20:20:44.536077,Mumbai,29.99,79,1010,haze,1.54,Post-monsoon
+2024-10-02 20:20:44.850384,Bangalore,24.88,84,1012,thunderstorm,2.06,Post-monsoon
