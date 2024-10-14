@@ -23,11 +23,98 @@ weather_df = pd.DataFrame(columns=['timestamp', 'city', 'temperature', 'humidity
 
 # Your OpenWeatherMap API key
 api_key = '429e6570bf176b57734d33f03e17ea4a'
-# List of cities you want to fetch weather data for
-cities = ['Delhi', 'Mumbai', 'Bangalore']
 
 
 # In[4]:
+
+
+# List of cities you want to fetch weather data 
+cities = ['North and Middle Andaman ', 'Chittor', 'Guntur', 'Visakhapatnam',
+       'Barpeta', 'Cachar', 'Goalpara', 'Jorhat', 'Kamrup',
+       'Karbi Anglong', 'Kokrajhar', 'MORIGAON', 'Sonitpur', 'Araria',
+       'Bhojpur', 'Madhubani', 'Rohtas', 'Chandigarh', 'Bilaspur',
+       'Dhamtari', 'Durg', 'Kondagaon', 'Raipur', 'Rajnandgaon',
+       'North Goa', 'South Goa', 'Ahmedabad', 'Amreli', 'Anand',
+       'Banaskanth', 'Bharuch', 'Bhavnagar', 'Chhota Udaipur', 'Dahod',
+       'Dang', 'Devbhumi Dwarka', 'Gandhinagar', 'Gir Somnath',
+       'Jamnagar', 'Junagarh', 'Kachchh', 'Kheda', 'Mehsana', 'Morbi',
+       'Navsari', 'Panchmahals', 'Patan', 'Porbandar', 'Rajkot',
+       'Sabarkantha', 'Surat', 'Surendranagar', 'Vadodara(Baroda)',
+       'Valsad', 'Ambala', 'Bhiwani', 'Fatehabad', 'Gurgaon', 'Hissar',
+       'Jhajar', 'Jind', 'Kaithal', 'Kurukshetra', 'Mahendragarh-Narnaul',
+       'Mewat', 'Panchkula', 'Panipat', 'Rewari', 'Rohtak', 'Sonipat',
+       'Yamuna Nagar', 'Chamba', 'Hamirpur', 'Kangra', 'Kullu', 'Mandi',
+       'Shimla', 'Una', 'Anantnag', 'Badgam', 'Baramulla', 'Jammu',
+       'Kathua', 'Pulwama', 'Rajouri', 'Srinagar', 'Udhampur',
+       'Bangalore', 'Chamrajnagar', 'Chikmagalur', 'Chitradurga',
+       'Davangere', 'Kolar', 'Koppal', 'Mandya',
+       'Mangalore(Dakshin Kannad)', 'Mysore', 'Raichur', 'Shimoga',
+       'Udupi', 'Alappuzha', 'Ernakulam', 'Idukki', 'Kannur', 'Kasargod',
+       'Kollam', 'Kottayam', 'Kozhikode(Calicut)', 'Malappuram',
+       'Palakad', 'Pathanamthitta', 'Thirssur', 'Thiruvananthapuram',
+       'Wayanad', 'Alirajpur', 'Anupur', 'Ashoknagar', 'Badwani',
+       'Balaghat', 'Bhind', 'Bhopal', 'Chhatarpur', 'Chhindwara', 'Datia',
+       'Dewas', 'Dhar', 'Dindori', 'Guna', 'Gwalior', 'Harda',
+       'Hoshangabad', 'Indore', 'Khandwa', 'Khargone', 'Mandla',
+       'Mandsaur', 'Morena', 'Narsinghpur', 'Neemuch', 'Rajgarh',
+       'Ratlam', 'Sagar', 'Satna', 'Sehore', 'Seoni', 'Shajapur',
+       'Sheopur', 'Tikamgarh', 'Ujjain', 'Vidisha', 'Ahmednagar', 'Akola',
+       'Buldhana', 'Kolhapur', 'Mumbai', 'Nagpur', 'Nashik', 'Pune',
+       'Raigad', 'Ratnagiri', 'Sangli', 'Satara', 'Sholapur', 'Thane',
+       'Yavatmal', 'East Khasi Hills', 'Kohima', 'Mokokchung', 'Delhi',
+       'Balasore', 'Bargarh', 'Boudh', 'Dhenkanal', 'Kalahandi',
+       'Kendrapara', 'Keonjhar', 'Nayagarh', 'Nuapada', 'Rayagada',
+       'Sundergarh', 'Amritsar', 'Bhatinda', 'Faridkot', 'Fatehgarh',
+       'Fazilka', 'Ferozpur', 'Gurdaspur', 'Hoshiarpur', 'Jalandhar',
+       'Ludhiana', 'Mansa', 'Moga', 'Mohali', 'Nawanshahr', 'Pathankot',
+       'Patiala', 'Ropar (Rupnagar)', 'Sangrur', 'Tarntaran', 'Ajmer',
+       'Baran', 'Bikaner', 'Bundi', 'Churu', 'Ganganagar', 'Hanumangarh',
+       'Jalore', 'Jodhpur', 'Jodhpur Rural', 'Pratapgarh', 'Sikar',
+       'Tonk', 'Udaipur', 'Ariyalur', 'Chengalpattu', 'Coimbatore',
+       'Cuddalore', 'Dharmapuri', 'Dindigul', 'Erode', 'Kallakuruchi',
+       'Kancheepuram', 'Karur', 'Krishnagiri', 'Madurai', 'Nagapattinam',
+       'Nagercoil (Kannyiakumari)', 'Namakkal', 'Perambalur',
+       'Pudukkottai', 'Ramanathapuram', 'Ranipet', 'Salem', 'Sivaganga',
+       'Tenkasi', 'Thanjavur', 'The Nilgiris', 'Theni',
+       'Thiruchirappalli', 'Thirunelveli', 'Thirupathur', 'Thirupur',
+       'Thiruvannamalai', 'Thiruvarur', 'Thiruvellore', 'Tuticorin',
+       'Vellore', 'Villupuram', 'Virudhunagar', 'Hyderabad', 'Karimnagar',
+       'Khammam', 'Mahbubnagar', 'Medak', 'Nalgonda', 'Nizamabad',
+       'Ranga Reddy', 'Warangal', 'Gomati', 'North Tripura', 'Sepahijala',
+       'Unokoti', 'Agra', 'Aligarh', 'Ambedkarnagar', 'Amethi', 'Amroha',
+       'Auraiya', 'Ayodhya', 'Azamgarh', 'Badaun', 'Baghpat', 'Bahraich',
+       'Ballia', 'Balrampur', 'Banda', 'Barabanki', 'Basti',
+       'Bhadohi(Sant Ravi Nagar)', 'Bijnor', 'Bulandshahar', 'Chandauli',
+       'Etah', 'Etawah', 'Farukhabad', 'Fatehpur', 'Firozabad',
+       'Gautam Budh Nagar', 'Ghaziabad', 'Ghazipur', 'Gonda', 'Gorakhpur',
+       'Hardoi', 'Jalaun (Orai)', 'Jaunpur', 'Jhansi', 'Kannuj', 'Kanpur',
+       'Kasganj', 'Kaushambi', 'Khiri (Lakhimpur)', 'Lakhimpur',
+       'Lucknow', 'Maharajganj', 'Mahoba', 'Mainpuri', 'Mathura',
+       'Mau(Maunathbhanjan)', 'Meerut', 'Mirzapur', 'Muzaffarnagar',
+       'Pillibhit', 'Prayagraj', 'Raebarelli', 'Rampur', 'Saharanpur',
+       'Sambhal', 'Sant Kabir Nagar', 'Shahjahanpur', 'Shamli',
+       'Siddharth Nagar', 'Sitapur', 'Unnao', 'Varanasi', 'Champawat',
+       'Dehradoon', 'Haridwar', 'Nanital', 'UdhamSinghNagar',
+       'Alipurduar', 'Bankura', 'Birbhum', 'Darjeeling', 'Howrah',
+       'Jalpaiguri', 'Kolkata', 'Medinipur(E)', 'Medinipur(W)',
+       'Murshidabad', 'Nadia', 'North 24 Parganas', 'Paschim Bardhaman',
+       'Purba Bardhaman', 'Puruliya', 'Sounth 24 Parganas',
+       'East Godavari', 'Sibsagar', 'Vaishali', 'Surguja', 'Dharwad',
+       'Kalburgi', 'Yadgiri', 'Damoh', 'Jabalpur', 'Katni', 'Panna',
+       'Raisen', 'Shehdol', 'Umariya', 'Chandrapur', 'Hingoli', 'Latur',
+       'Nanded', 'West Garo Hills', 'Dimapur', 'Bhadrak', 'Balotra',
+       'Barmer', 'Dausa', 'Dungarpur', 'Nagaur', 'Neem Ka Thana',
+       'Bareilly', 'Hathras', 'Lalitpur', 'Uttar Dinajpur', 'Nellore',
+       'Darbhanga', 'Jamui', 'Samastipur', 'Janjgir', 'Kanker', 'Korba',
+       'Koria', 'Narmada', 'Sirsa', 'Karwar(Uttar Kannad)',
+       'Madikeri(Kodagu)', 'Rewa', 'Shivpuri', 'Sidhi', 'Parbhani',
+       ' Jhunjhunu', 'Dudu', 'Jhalawar', 'Sanchore', 'Adilabad',
+       'West Godavari', 'Kaithar', 'Kishanganj', 'Balodabazar', 'Bastar',
+       'Jashpur', 'Kabirdham', 'Raigarh', 'Tumkur', 'Jhabua', 'Jalgaon',
+       'Kalimpong', 'Krishna', 'Mungeli', 'Sukma', 'Surajpur', 'Bellary']
+
+
+# In[5]:
 
 
 # Function to fetch weather data
@@ -47,7 +134,7 @@ for city in cities:
         print(f"Weather in {city}: {weather_data['main']['temp']}°C, {weather_data['weather'][0]['description']}")
 
 
-# In[5]:
+# In[6]:
 
 
 # Function to determine the current season based on Indian weather
@@ -63,7 +150,7 @@ def get_current_season():
         return 'Post-monsoon'
 
 
-# In[6]:
+# In[7]:
 
 
 # Function to update weather DataFrame and save to CSV
@@ -95,7 +182,7 @@ print("Final DataFrame:")
 print(weather_df)
 
 
-# In[7]:
+# In[8]:
 
 
 # Function to schedule the job
@@ -109,4 +196,6 @@ schedule.every().day.at("08:00").do(job)  # Set to run daily at 08:00 AM
 while True:
     schedule.run_pending()
     time.sleep(1)  # Wait for one second before checking again
+
+
 

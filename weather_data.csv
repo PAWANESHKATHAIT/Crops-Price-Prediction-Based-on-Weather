@@ -1,4 +1,313 @@
 timestamp,city,temperature,humidity,pressure,weather,wind_speed,season
-2024-10-02 20:20:44.190481,Delhi,33.05,49,1002,haze,0,Post-monsoon
-2024-10-02 20:20:44.536077,Mumbai,29.99,79,1010,haze,1.54,Post-monsoon
-2024-10-02 20:20:44.850384,Bangalore,24.88,84,1012,thunderstorm,2.06,Post-monsoon
+2024-10-14 13:48:49.366280,Guntur,27.04,86,1008,heavy intensity rain,2.52,Post-monsoon
+2024-10-14 13:48:49.722392,Visakhapatnam,31.94,70,1008,broken clouds,5.14,Post-monsoon
+2024-10-14 13:48:50.047586,Barpeta,29.9,58,1009,clear sky,2.04,Post-monsoon
+2024-10-14 13:48:50.422248,Cachar,17.91,80,1019,overcast clouds,0.7,Post-monsoon
+2024-10-14 13:48:50.858358,Goalpara,29.89,59,1009,clear sky,1.53,Post-monsoon
+2024-10-14 13:48:51.250827,Jorhat,28.1,68,1009,clear sky,0.7,Post-monsoon
+2024-10-14 13:48:52.378801,Kokrajhar,29.26,61,1009,clear sky,1.74,Post-monsoon
+2024-10-14 13:48:52.750889,MORIGAON,29.22,63,1009,clear sky,2.18,Post-monsoon
+2024-10-14 13:48:53.608079,Araria,31.1,48,1009,few clouds,1.79,Post-monsoon
+2024-10-14 13:48:53.922965,Bhojpur,18.65,79,1012,broken clouds,2.74,Post-monsoon
+2024-10-14 13:48:54.284986,Madhubani,30.09,54,1009,broken clouds,2.03,Post-monsoon
+2024-10-14 13:48:54.672460,Rohtas,31.35,45,1010,scattered clouds,1.97,Post-monsoon
+2024-10-14 13:48:54.969959,Chandigarh,32.51,19,1011,clear sky,4.47,Post-monsoon
+2024-10-14 13:48:55.300752,Bilaspur,31.17,60,1009,scattered clouds,1.96,Post-monsoon
+2024-10-14 13:48:55.657677,Dhamtari,31.37,58,1009,overcast clouds,2.58,Post-monsoon
+2024-10-14 13:48:55.972798,Durg,31.1,56,1009,scattered clouds,1.95,Post-monsoon
+2024-10-14 13:48:56.349210,Kondagaon,31.8,46,1009,few clouds,2.02,Post-monsoon
+2024-10-14 13:48:56.676737,Raipur,31.08,55,1009,scattered clouds,2.57,Post-monsoon
+2024-10-14 13:48:57.063307,Rajnandgaon,31.56,56,1009,scattered clouds,2.16,Post-monsoon
+2024-10-14 13:48:59.533493,Ahmedabad,32.02,55,1009,smoke,1.54,Post-monsoon
+2024-10-14 13:48:59.929700,Amreli,31.93,59,1009,broken clouds,2.36,Post-monsoon
+2024-10-14 13:49:00.281101,Anand,32.99,54,1008,overcast clouds,2.82,Post-monsoon
+2024-10-14 13:49:00.988464,Bharuch,32.49,61,1008,overcast clouds,2.93,Post-monsoon
+2024-10-14 13:49:01.348157,Bhavnagar,30.9,66,1009,scattered clouds,3.09,Post-monsoon
+2024-10-14 13:49:01.708871,Chhota Udaipur,31.96,59,1009,overcast clouds,2.78,Post-monsoon
+2024-10-14 13:49:02.160623,Dahod,31.57,55,1009,overcast clouds,2.45,Post-monsoon
+2024-10-14 13:49:02.564746,Dang,22.79,91,1017,light rain,0.3,Post-monsoon
+2024-10-14 13:49:03.194859,Gandhinagar,31.99,55,1009,smoke,1.54,Post-monsoon
+2024-10-14 13:49:04.018815,Jamnagar,32.34,55,1009,overcast clouds,2.38,Post-monsoon
+2024-10-14 13:49:04.434528,Junagarh,31.96,59,1008,scattered clouds,3.02,Post-monsoon
+2024-10-14 13:49:05.095441,Kheda,32.16,61,1009,overcast clouds,2.01,Post-monsoon
+2024-10-14 13:49:05.907363,Morbi,32.62,50,1009,overcast clouds,2.81,Post-monsoon
+2024-10-14 13:49:06.297856,Navsari,32.94,65,1008,overcast clouds,0.98,Post-monsoon
+2024-10-14 13:49:07.140465,Patan,25.21,57,1012,scattered clouds,4.12,Post-monsoon
+2024-10-14 13:49:07.473450,Porbandar,31.06,64,1009,scattered clouds,3.21,Post-monsoon
+2024-10-14 13:49:07.783539,Rajkot,31.97,54,1009,overcast clouds,2.84,Post-monsoon
+2024-10-14 13:49:08.426077,Surat,32.99,62,1008,haze,2.57,Post-monsoon
+2024-10-14 13:49:08.775412,Surendranagar,31.45,56,1009,overcast clouds,2.34,Post-monsoon
+2024-10-14 13:49:10.719954,Valsad,31.28,66,1008,overcast clouds,0.87,Post-monsoon
+2024-10-14 13:49:11.047767,Ambala,33.3,18,1010,scattered clouds,2.94,Post-monsoon
+2024-10-14 13:49:11.406737,Bhiwani,34.3,13,1011,overcast clouds,3.12,Post-monsoon
+2024-10-14 13:49:11.895827,Fatehabad,34.74,13,1010,scattered clouds,2.47,Post-monsoon
+2024-10-14 13:49:12.217920,Gurgaon,32.02,33,1010,haze,2.57,Post-monsoon
+2024-10-14 13:49:12.516071,Hissar,34.31,13,1011,scattered clouds,2.16,Post-monsoon
+2024-10-14 13:49:14.101784,Jind,34.08,15,1011,clear sky,2.92,Post-monsoon
+2024-10-14 13:49:14.412654,Kaithal,34.23,15,1011,clear sky,3.06,Post-monsoon
+2024-10-14 13:49:14.736856,Kurukshetra,33.28,18,1011,clear sky,2.94,Post-monsoon
+2024-10-14 13:49:15.843254,Panchkula,32.31,20,1011,clear sky,4.38,Post-monsoon
+2024-10-14 13:49:16.159976,Panipat,33.04,18,1011,clear sky,2.39,Post-monsoon
+2024-10-14 13:49:16.460126,Rewari,34.36,12,1010,broken clouds,3.56,Post-monsoon
+2024-10-14 13:49:16.760916,Rohtak,33.97,14,1011,overcast clouds,3.05,Post-monsoon
+2024-10-14 13:49:17.078654,Sonipat,32.0,17,1011,overcast clouds,2.79,Post-monsoon
+2024-10-14 13:49:18.851239,Chamba,26.29,44,1015,clear sky,3.35,Post-monsoon
+2024-10-14 13:49:19.152474,Hamirpur,31.16,35,1010,broken clouds,2.67,Post-monsoon
+2024-10-14 13:49:19.466184,Kangra,26.3,33,1013,clear sky,2.3,Post-monsoon
+2024-10-14 13:49:19.808254,Kullu,17.43,39,1015,clear sky,3.25,Post-monsoon
+2024-10-14 13:49:20.114984,Mandi,23.5,34,1014,clear sky,2.36,Post-monsoon
+2024-10-14 13:49:20.423891,Shimla,18.14,45,1014,clear sky,2.9,Post-monsoon
+2024-10-14 13:49:20.804386,Una,31.15,65,1009,broken clouds,3.42,Post-monsoon
+2024-10-14 13:49:21.090988,Anantnag,25.56,15,1013,clear sky,1.8,Post-monsoon
+2024-10-14 13:49:21.747033,Baramulla,24.92,18,1014,clear sky,1.8,Post-monsoon
+2024-10-14 13:49:22.089857,Jammu,30.32,26,1012,clear sky,2.48,Post-monsoon
+2024-10-14 13:49:22.441286,Kathua,31.09,28,1011,clear sky,1.21,Post-monsoon
+2024-10-14 13:49:22.781516,Pulwama,25.05,20,1013,clear sky,3.11,Post-monsoon
+2024-10-14 13:49:23.106192,Rajouri,27.28,26,1014,clear sky,3.57,Post-monsoon
+2024-10-14 13:49:23.426310,Srinagar,25.03,21,1013,clear sky,0.84,Post-monsoon
+2024-10-14 13:49:23.746785,Udhampur,27.14,34,1014,clear sky,3.18,Post-monsoon
+2024-10-14 13:49:24.076632,Bangalore,24.8,78,1010,broken clouds,4.12,Post-monsoon
+2024-10-14 13:49:24.380603,Chamrajnagar,21.84,89,1011,overcast clouds,1.19,Post-monsoon
+2024-10-14 13:49:24.706508,Chikmagalur,23.06,79,1010,overcast clouds,3.02,Post-monsoon
+2024-10-14 13:49:25.007661,Chitradurga,26.29,66,1010,light rain,7.25,Post-monsoon
+2024-10-14 13:49:25.335596,Davangere,27.82,64,1009,overcast clouds,4.98,Post-monsoon
+2024-10-14 13:49:25.642523,Kolar,20.71,81,1010,overcast clouds,5.43,Post-monsoon
+2024-10-14 13:49:25.967489,Koppal,28.07,65,1009,overcast clouds,4.76,Post-monsoon
+2024-10-14 13:49:26.288743,Mandya,26.47,86,1010,overcast clouds,1.25,Post-monsoon
+2024-10-14 13:49:26.917431,Mysore,26.0,78,1011,light intensity drizzle,2.06,Post-monsoon
+2024-10-14 13:49:27.255082,Raichur,30.35,54,1009,overcast clouds,4.77,Post-monsoon
+2024-10-14 13:49:27.556311,Shimoga,26.51,75,1009,overcast clouds,2.32,Post-monsoon
+2024-10-14 13:49:27.870086,Udupi,29.58,74,1008,overcast clouds,3.14,Post-monsoon
+2024-10-14 13:49:28.188338,Alappuzha,26.63,80,1008,moderate rain,2.32,Post-monsoon
+2024-10-14 13:49:28.512855,Ernakulam,28.99,76,1008,overcast clouds,2.6,Post-monsoon
+2024-10-14 13:49:28.817613,Idukki,20.87,92,1009,overcast clouds,1.82,Post-monsoon
+2024-10-14 13:49:29.150516,Kannur,27.81,71,1008,overcast clouds,0.63,Post-monsoon
+2024-10-14 13:49:29.987639,Kollam,26.47,82,1008,overcast clouds,2.95,Post-monsoon
+2024-10-14 13:49:30.305890,Kottayam,26.13,87,1008,light rain,0.44,Post-monsoon
+2024-10-14 13:49:30.972967,Malappuram,28.09,74,1008,broken clouds,3.09,Post-monsoon
+2024-10-14 13:49:32.758071,Pathanamthitta,24.42,93,1008,moderate rain,0.98,Post-monsoon
+2024-10-14 13:49:33.384685,Thiruvananthapuram,29.99,74,1008,haze,3.09,Post-monsoon
+2024-10-14 13:49:34.156100,Alirajpur,29.93,64,1009,overcast clouds,2.3,Post-monsoon
+2024-10-14 13:49:35.664556,Ashoknagar,30.44,50,1010,broken clouds,3.03,Post-monsoon
+2024-10-14 13:49:37.421922,Balaghat,30.31,66,1009,broken clouds,1.56,Post-monsoon
+2024-10-14 13:49:37.730180,Bhind,33.07,41,1010,clear sky,0.84,Post-monsoon
+2024-10-14 13:49:38.025350,Bhopal,30.77,54,1010,overcast clouds,1.57,Post-monsoon
+2024-10-14 13:49:38.340354,Chhatarpur,31.57,43,1010,few clouds,2.05,Post-monsoon
+2024-10-14 13:49:38.655441,Chhindwara,28.64,63,1010,broken clouds,1.48,Post-monsoon
+2024-10-14 13:49:38.985166,Datia,31.53,41,1010,overcast clouds,2.35,Post-monsoon
+2024-10-14 13:49:39.301186,Dewas,29.1,60,1010,overcast clouds,0.87,Post-monsoon
+2024-10-14 13:49:39.608638,Dhar,29.29,61,1010,overcast clouds,1.41,Post-monsoon
+2024-10-14 13:49:39.921447,Dindori,28.25,66,1011,broken clouds,1.78,Post-monsoon
+2024-10-14 13:49:40.285152,Guna,30.21,53,1010,broken clouds,2.38,Post-monsoon
+2024-10-14 13:49:40.599098,Gwalior,30.07,49,1011,broken clouds,0.42,Post-monsoon
+2024-10-14 13:49:40.906836,Harda,31.16,61,1009,scattered clouds,0.82,Post-monsoon
+2024-10-14 13:49:41.227412,Hoshangabad,30.96,61,1010,overcast clouds,0.57,Post-monsoon
+2024-10-14 13:49:41.532472,Indore,29.1,70,1010,few clouds,2.57,Post-monsoon
+2024-10-14 13:49:41.853294,Khandwa,30.33,63,1009,broken clouds,1.71,Post-monsoon
+2024-10-14 13:49:42.154564,Khargone,31.43,60,1009,broken clouds,2.53,Post-monsoon
+2024-10-14 13:49:42.488488,Mandla,29.74,65,1010,broken clouds,1.84,Post-monsoon
+2024-10-14 13:49:42.793903,Mandsaur,30.74,53,1010,scattered clouds,3.05,Post-monsoon
+2024-10-14 13:49:43.099143,Morena,32.33,42,1010,broken clouds,0.5,Post-monsoon
+2024-10-14 13:49:43.407287,Narsinghpur,31.14,58,1009,few clouds,1.9,Post-monsoon
+2024-10-14 13:49:44.167051,Rajgarh,34.22,13,1011,overcast clouds,1.84,Post-monsoon
+2024-10-14 13:49:44.510436,Ratlam,29.74,59,1010,overcast clouds,2.69,Post-monsoon
+2024-10-14 13:49:44.836220,Sagar,29.38,60,1010,scattered clouds,2.3,Post-monsoon
+2024-10-14 13:49:45.149416,Satna,32.19,40,1010,few clouds,2.6,Post-monsoon
+2024-10-14 13:49:45.476998,Sehore,30.74,55,1010,overcast clouds,1.53,Post-monsoon
+2024-10-14 13:49:45.790469,Seoni,29.16,64,1010,scattered clouds,1.63,Post-monsoon
+2024-10-14 13:49:46.117671,Shajapur,30.6,55,1010,overcast clouds,1.97,Post-monsoon
+2024-10-14 13:49:46.447909,Sheopur,30.62,47,1010,overcast clouds,2.39,Post-monsoon
+2024-10-14 13:49:46.750784,Tikamgarh,31.21,46,1010,clear sky,2.46,Post-monsoon
+2024-10-14 13:49:47.059084,Ujjain,29.83,61,1010,overcast clouds,1.73,Post-monsoon
+2024-10-14 13:49:47.385333,Vidisha,31.57,49,1010,scattered clouds,0.67,Post-monsoon
+2024-10-14 13:49:47.704093,Ahmednagar,31.02,47,1009,broken clouds,2.59,Post-monsoon
+2024-10-14 13:49:48.016730,Akola,30.43,63,1009,broken clouds,0.89,Post-monsoon
+2024-10-14 13:49:48.349526,Buldhana,29.32,61,1009,broken clouds,1.27,Post-monsoon
+2024-10-14 13:49:48.657435,Kolhapur,29.48,62,1009,overcast clouds,4.09,Post-monsoon
+2024-10-14 13:49:48.972955,Mumbai,31.99,70,1008,haze,2.57,Post-monsoon
+2024-10-14 13:49:49.300500,Nagpur,33.01,52,1009,haze,1.03,Post-monsoon
+2024-10-14 13:49:49.646417,Nashik,29.91,59,1009,overcast clouds,2.98,Post-monsoon
+2024-10-14 13:49:49.954822,Pune,30.48,54,1009,overcast clouds,3.59,Post-monsoon
+2024-10-14 13:49:50.699416,Ratnagiri,29.34,75,1008,overcast clouds,4.26,Post-monsoon
+2024-10-14 13:49:51.006744,Sangli,30.27,56,1009,overcast clouds,4.57,Post-monsoon
+2024-10-14 13:49:51.348088,Satara,29.03,57,1009,overcast clouds,2.76,Post-monsoon
+2024-10-14 13:49:51.650705,Sholapur,31.41,50,1008,overcast clouds,2.84,Post-monsoon
+2024-10-14 13:49:51.967196,Thane,32.95,66,1008,haze,2.57,Post-monsoon
+2024-10-14 13:49:52.331145,Yavatmal,30.03,62,1009,scattered clouds,1.84,Post-monsoon
+2024-10-14 13:49:53.935454,Kohima,24.43,74,1011,scattered clouds,1.78,Post-monsoon
+2024-10-14 13:49:54.246056,Mokokchung,27.5,51,1010,clear sky,1.81,Post-monsoon
+2024-10-14 13:49:54.567944,Delhi,32.05,33,1010,haze,2.57,Post-monsoon
+2024-10-14 13:49:54.892912,Balasore,33.08,52,1009,overcast clouds,2.12,Post-monsoon
+2024-10-14 13:49:55.209246,Bargarh,31.83,60,1009,broken clouds,1.35,Post-monsoon
+2024-10-14 13:49:56.098003,Dhenkanal,32.59,53,1009,clear sky,2.11,Post-monsoon
+2024-10-14 13:49:57.786536,Kendrapara,33.51,51,1008,broken clouds,1.95,Post-monsoon
+2024-10-14 13:49:58.969938,Nayagarh,32.03,56,1009,broken clouds,2.01,Post-monsoon
+2024-10-14 13:49:59.954233,Rayagada,31.86,57,1009,few clouds,1.95,Post-monsoon
+2024-10-14 13:50:00.600131,Amritsar,30.97,42,1011,haze,2.57,Post-monsoon
+2024-10-14 13:50:00.934808,Bhatinda,34.96,17,1010,scattered clouds,2.45,Post-monsoon
+2024-10-14 13:50:01.250621,Faridkot,35.83,12,1010,few clouds,3.01,Post-monsoon
+2024-10-14 13:50:01.626014,Fatehgarh,33.2,32,1010,broken clouds,2.28,Post-monsoon
+2024-10-14 13:50:01.926058,Fazilka,35.99,13,1010,scattered clouds,2.63,Post-monsoon
+2024-10-14 13:50:02.966609,Hoshiarpur,32.16,21,1011,clear sky,2.46,Post-monsoon
+2024-10-14 13:50:03.266394,Jalandhar,34.17,15,1011,clear sky,1.44,Post-monsoon
+2024-10-14 13:50:03.605475,Ludhiana,34.57,13,1010,clear sky,2.97,Post-monsoon
+2024-10-14 13:50:03.976303,Mansa,35.56,13,1010,scattered clouds,3.9,Post-monsoon
+2024-10-14 13:50:04.281729,Moga,35.74,10,1010,few clouds,4.16,Post-monsoon
+2024-10-14 13:50:04.579390,Mohali,33.16,18,1010,few clouds,4.37,Post-monsoon
+2024-10-14 13:50:04.940127,Nawanshahr,33.32,18,1011,clear sky,2.76,Post-monsoon
+2024-10-14 13:50:05.268628,Pathankot,30.91,29,1011,clear sky,1.01,Post-monsoon
+2024-10-14 13:50:05.595652,Patiala,34.66,13,1010,few clouds,3.59,Post-monsoon
+2024-10-14 13:50:06.312874,Sangrur,34.99,13,1010,broken clouds,3.44,Post-monsoon
+2024-10-14 13:50:07.114258,Ajmer,31.66,36,1010,broken clouds,2.98,Post-monsoon
+2024-10-14 13:50:07.437806,Baran,32.0,49,1010,overcast clouds,3.34,Post-monsoon
+2024-10-14 13:50:07.764520,Bikaner,34.37,19,1010,overcast clouds,0.95,Post-monsoon
+2024-10-14 13:50:08.078805,Bundi,31.61,44,1010,overcast clouds,2.43,Post-monsoon
+2024-10-14 13:50:08.389296,Churu,34.02,14,1011,overcast clouds,1.7,Post-monsoon
+2024-10-14 13:50:08.703966,Ganganagar,35.88,14,1010,broken clouds,2.66,Post-monsoon
+2024-10-14 13:50:09.016107,Hanumangarh,35.31,16,1010,clear sky,1.74,Post-monsoon
+2024-10-14 13:50:09.406713,Jalore,33.56,41,1009,broken clouds,1.74,Post-monsoon
+2024-10-14 13:50:09.719329,Jodhpur,34.13,30,1010,overcast clouds,4.1,Post-monsoon
+2024-10-14 13:50:10.528368,Pratapgarh,29.88,57,1010,scattered clouds,2.52,Post-monsoon
+2024-10-14 13:50:10.828358,Sikar,33.36,16,1011,broken clouds,2.23,Post-monsoon
+2024-10-14 13:50:11.456610,Tonk,32.36,40,1010,broken clouds,1.58,Post-monsoon
+2024-10-14 13:50:11.752423,Udaipur,29.5,62,1011,broken clouds,2.59,Post-monsoon
+2024-10-14 13:50:12.064439,Ariyalur,23.55,94,1008,light rain,2.57,Post-monsoon
+2024-10-14 13:50:12.378657,Chengalpattu,26.5,70,1007,moderate rain,6.19,Post-monsoon
+2024-10-14 13:50:12.750156,Coimbatore,27.88,74,1009,light intensity drizzle,2.06,Post-monsoon
+2024-10-14 13:50:13.173028,Cuddalore,28.21,80,1007,overcast clouds,4.16,Post-monsoon
+2024-10-14 13:50:13.485252,Dharmapuri,27.01,89,1009,overcast clouds,1.05,Post-monsoon
+2024-10-14 13:50:13.797197,Dindigul,22.49,96,1009,overcast clouds,2.36,Post-monsoon
+2024-10-14 13:50:14.146942,Erode,23.95,90,1009,overcast clouds,1.87,Post-monsoon
+2024-10-14 13:50:15.092738,Karur,23.93,89,1009,overcast clouds,2.96,Post-monsoon
+2024-10-14 13:50:15.406928,Krishnagiri,24.24,78,1009,overcast clouds,2.97,Post-monsoon
+2024-10-14 13:50:15.708682,Madurai,29.01,84,1008,moderate rain,1.54,Post-monsoon
+2024-10-14 13:50:16.035002,Nagapattinam,24.81,90,1008,moderate rain,3.6,Post-monsoon
+2024-10-14 13:50:16.817802,Namakkal,23.29,92,1009,overcast clouds,2.31,Post-monsoon
+2024-10-14 13:50:17.146844,Perambalur,23.63,93,1008,moderate rain,2.24,Post-monsoon
+2024-10-14 13:50:17.485742,Pudukkottai,28.92,94,1008,heavy intensity rain,3.41,Post-monsoon
+2024-10-14 13:50:17.804380,Ramanathapuram,24.11,94,1008,moderate rain,2.94,Post-monsoon
+2024-10-14 13:50:18.454466,Salem,28.11,94,1009,broken clouds,1.54,Post-monsoon
+2024-10-14 13:50:18.845917,Sivaganga,29.23,91,1008,heavy intensity rain,3.98,Post-monsoon
+2024-10-14 13:50:19.165553,Tenkasi,24.55,88,1009,light rain,1.77,Post-monsoon
+2024-10-14 13:50:19.474613,Thanjavur,29.31,93,1008,heavy intensity rain,2.46,Post-monsoon
+2024-10-14 13:50:20.568866,Theni,23.32,96,1009,overcast clouds,1.32,Post-monsoon
+2024-10-14 13:50:22.655153,Thiruvarur,24.27,92,1008,moderate rain,2.96,Post-monsoon
+2024-10-14 13:50:23.871815,Vellore,27.13,75,1008,overcast clouds,5.2,Post-monsoon
+2024-10-14 13:50:24.172167,Villupuram,27.97,80,1007,overcast clouds,2.95,Post-monsoon
+2024-10-14 13:50:24.474749,Virudhunagar,29.23,94,1008,very heavy rain,1.64,Post-monsoon
+2024-10-14 13:50:24.794329,Hyderabad,30.23,58,1009,scattered clouds,3.6,Post-monsoon
+2024-10-14 13:50:25.099650,Karimnagar,30.68,62,1009,overcast clouds,1.93,Post-monsoon
+2024-10-14 13:50:25.409293,Khammam,29.39,74,1008,overcast clouds,1.35,Post-monsoon
+2024-10-14 13:50:25.710376,Mahbubnagar,29.51,58,1009,broken clouds,4.73,Post-monsoon
+2024-10-14 13:50:26.031325,Medak,29.51,63,1009,overcast clouds,1.71,Post-monsoon
+2024-10-14 13:50:26.333118,Nalgonda,29.39,68,1009,overcast clouds,2.66,Post-monsoon
+2024-10-14 13:50:26.659942,Nizamabad,30.27,63,1009,overcast clouds,1.48,Post-monsoon
+2024-10-14 13:50:27.308933,Warangal,30.91,63,1008,overcast clouds,2.26,Post-monsoon
+2024-10-14 13:50:27.625659,Gomati,18.78,67,1019,overcast clouds,1.37,Post-monsoon
+2024-10-14 13:50:29.353735,Agra,34.18,26,1010,broken clouds,2.41,Post-monsoon
+2024-10-14 13:50:29.705311,Aligarh,33.4,23,1010,clear sky,1.73,Post-monsoon
+2024-10-14 13:50:30.526533,Amethi,31.4,42,1010,overcast clouds,1.35,Post-monsoon
+2024-10-14 13:50:30.852040,Amroha,31.33,28,1011,broken clouds,2.29,Post-monsoon
+2024-10-14 13:50:31.175173,Auraiya,31.64,45,1010,broken clouds,1.35,Post-monsoon
+2024-10-14 13:50:31.502180,Ayodhya,32.14,42,1010,scattered clouds,1.83,Post-monsoon
+2024-10-14 13:50:31.833678,Azamgarh,32.05,41,1010,scattered clouds,0.48,Post-monsoon
+2024-10-14 13:50:32.140902,Badaun,31.29,29,1011,clear sky,1.79,Post-monsoon
+2024-10-14 13:50:32.466666,Baghpat,32.04,18,1011,overcast clouds,2.53,Post-monsoon
+2024-10-14 13:50:32.770024,Bahraich,31.48,35,1010,broken clouds,2.47,Post-monsoon
+2024-10-14 13:50:33.082675,Ballia,30.99,43,1010,few clouds,0.85,Post-monsoon
+2024-10-14 13:50:33.406049,Balrampur,31.04,39,1010,clear sky,2.54,Post-monsoon
+2024-10-14 13:50:33.732717,Banda,32.53,35,1010,broken clouds,2.08,Post-monsoon
+2024-10-14 13:50:34.034327,Barabanki,30.01,42,1010,few clouds,1.54,Post-monsoon
+2024-10-14 13:50:34.350711,Basti,31.69,43,1010,few clouds,2.21,Post-monsoon
+2024-10-14 13:50:35.024101,Bijnor,31.02,31,1011,clear sky,2.41,Post-monsoon
+2024-10-14 13:50:35.655513,Chandauli,30.03,47,1010,few clouds,1.84,Post-monsoon
+2024-10-14 13:50:35.965904,Etah,32.95,28,1010,clear sky,1.71,Post-monsoon
+2024-10-14 13:50:36.284748,Etawah,32.55,43,1010,scattered clouds,1.65,Post-monsoon
+2024-10-14 13:50:36.931333,Fatehpur,29.93,47,1010,overcast clouds,2.34,Post-monsoon
+2024-10-14 13:50:37.265896,Firozabad,33.61,30,1010,scattered clouds,2.31,Post-monsoon
+2024-10-14 13:50:37.567951,Gautam Budh Nagar,32.16,12,1010,broken clouds,3.09,Post-monsoon
+2024-10-14 13:50:37.878952,Ghaziabad,32.08,15,1010,overcast clouds,3.18,Post-monsoon
+2024-10-14 13:50:38.216947,Ghazipur,31.29,46,1010,scattered clouds,0.77,Post-monsoon
+2024-10-14 13:50:38.544397,Gonda,31.79,39,1010,scattered clouds,2.12,Post-monsoon
+2024-10-14 13:50:38.846952,Gorakhpur,34.46,14,1011,few clouds,2.55,Post-monsoon
+2024-10-14 13:50:39.157047,Hardoi,31.83,38,1010,few clouds,2.23,Post-monsoon
+2024-10-14 13:50:39.906521,Jaunpur,30.01,39,1010,scattered clouds,1.48,Post-monsoon
+2024-10-14 13:50:40.230411,Jhansi,32.22,40,1010,scattered clouds,2.41,Post-monsoon
+2024-10-14 13:50:41.005435,Kanpur,30.8,44,1010,broken clouds,2.47,Post-monsoon
+2024-10-14 13:50:41.380777,Kasganj,32.98,26,1010,clear sky,1.4,Post-monsoon
+2024-10-14 13:50:41.682376,Kaushambi,32.13,13,1010,broken clouds,3.18,Post-monsoon
+2024-10-14 13:50:42.581168,Lakhimpur,29.74,41,1010,scattered clouds,2.28,Post-monsoon
+2024-10-14 13:50:42.888667,Lucknow,29.99,54,1010,haze,1.03,Post-monsoon
+2024-10-14 13:50:43.221671,Maharajganj,30.73,42,1010,few clouds,2.86,Post-monsoon
+2024-10-14 13:50:43.532752,Mahoba,32.47,36,1010,few clouds,1.62,Post-monsoon
+2024-10-14 13:50:43.841107,Mainpuri,33.04,36,1010,broken clouds,2.51,Post-monsoon
+2024-10-14 13:50:44.164150,Mathura,34.04,24,1010,clear sky,2.69,Post-monsoon
+2024-10-14 13:50:45.901853,Meerut,32.38,21,1011,broken clouds,2.63,Post-monsoon
+2024-10-14 13:50:46.219549,Mirzapur,29.98,39,1010,few clouds,2.48,Post-monsoon
+2024-10-14 13:50:46.598277,Muzaffarnagar,31.35,29,1011,clear sky,2.33,Post-monsoon
+2024-10-14 13:50:47.958486,Rampur,32.28,33,1011,few clouds,2.18,Post-monsoon
+2024-10-14 13:50:48.284916,Saharanpur,31.02,31,1011,clear sky,2.94,Post-monsoon
+2024-10-14 13:50:48.619979,Sambhal,31.95,25,1011,scattered clouds,2.31,Post-monsoon
+2024-10-14 13:50:49.251653,Shahjahanpur,30.58,37,1010,broken clouds,1.35,Post-monsoon
+2024-10-14 13:50:49.563488,Shamli,32.1,24,1011,clear sky,2.49,Post-monsoon
+2024-10-14 13:50:50.192503,Sitapur,31.21,37,1010,scattered clouds,2.12,Post-monsoon
+2024-10-14 13:50:50.507944,Unnao,29.99,41,1010,broken clouds,2.54,Post-monsoon
+2024-10-14 13:50:50.812604,Varanasi,30.05,58,1010,haze,2.06,Post-monsoon
+2024-10-14 13:50:51.128857,Champawat,21.89,60,1012,scattered clouds,2.6,Post-monsoon
+2024-10-14 13:50:51.740298,Haridwar,28.65,41,1011,clear sky,2.46,Post-monsoon
+2024-10-14 13:50:53.156792,Bankura,32.05,47,1009,broken clouds,1.51,Post-monsoon
+2024-10-14 13:50:54.048328,Darjeeling,17.16,89,1012,broken clouds,1.9,Post-monsoon
+2024-10-14 13:50:54.377642,Howrah,34.0,49,1009,haze,2.57,Post-monsoon
+2024-10-14 13:50:54.681854,Jalpaiguri,29.15,61,1009,clear sky,0.65,Post-monsoon
+2024-10-14 13:50:54.997664,Kolkata,33.97,49,1009,haze,2.57,Post-monsoon
+2024-10-14 13:50:56.190158,Murshidabad,32.23,44,1009,broken clouds,2.74,Post-monsoon
+2024-10-14 13:50:58.294205,Puruliya,32.29,43,1009,clear sky,1.73,Post-monsoon
+2024-10-14 13:51:00.156896,Sibsagar,28.13,67,1009,clear sky,0.67,Post-monsoon
+2024-10-14 13:51:00.593290,Vaishali,31.95,41,1010,few clouds,2.61,Post-monsoon
+2024-10-14 13:51:01.223254,Dharwad,29.66,66,1009,scattered clouds,5.66,Post-monsoon
+2024-10-14 13:51:02.561825,Damoh,31.54,50,1010,few clouds,2.22,Post-monsoon
+2024-10-14 13:51:02.893466,Jabalpur,31.47,66,1010,haze,2.06,Post-monsoon
+2024-10-14 13:51:03.209149,Katni,30.06,58,1010,broken clouds,0.94,Post-monsoon
+2024-10-14 13:51:03.515433,Panna,31.0,44,1010,few clouds,2.93,Post-monsoon
+2024-10-14 13:51:03.831156,Raisen,30.91,54,1010,scattered clouds,0.82,Post-monsoon
+2024-10-14 13:51:04.773767,Chandrapur,31.68,62,1009,overcast clouds,1.45,Post-monsoon
+2024-10-14 13:51:05.111660,Hingoli,30.11,63,1009,overcast clouds,2.19,Post-monsoon
+2024-10-14 13:51:05.411008,Latur,29.89,56,1009,overcast clouds,2.36,Post-monsoon
+2024-10-14 13:51:06.504881,Dimapur,31.99,62,1009,haze,1.54,Post-monsoon
+2024-10-14 13:51:06.825683,Bhadrak,33.21,52,1008,overcast clouds,2.68,Post-monsoon
+2024-10-14 13:51:07.147768,Balotra,34.37,32,1009,overcast clouds,4.62,Post-monsoon
+2024-10-14 13:51:07.472732,Barmer,34.43,27,1010,overcast clouds,4.85,Post-monsoon
+2024-10-14 13:51:07.803620,Dausa,33.63,22,1010,scattered clouds,2.07,Post-monsoon
+2024-10-14 13:51:08.116204,Dungarpur,30.47,59,1010,overcast clouds,3.2,Post-monsoon
+2024-10-14 13:51:08.413444,Nagaur,33.89,23,1010,broken clouds,2.97,Post-monsoon
+2024-10-14 13:51:08.746471,Neem Ka Thana,32.67,14,1011,broken clouds,2.8,Post-monsoon
+2024-10-14 13:51:09.054091,Bareilly,30.5,34,1011,clear sky,1.62,Post-monsoon
+2024-10-14 13:51:09.382645,Hathras,33.44,26,1010,clear sky,2.13,Post-monsoon
+2024-10-14 13:51:09.683710,Lalitpur,25.21,57,1012,scattered clouds,4.12,Post-monsoon
+2024-10-14 13:51:10.369830,Nellore,28.55,74,1008,heavy intensity rain,5.07,Post-monsoon
+2024-10-14 13:51:10.686523,Darbhanga,29.15,56,1010,overcast clouds,1.36,Post-monsoon
+2024-10-14 13:51:11.009217,Jamui,31.3,44,1010,few clouds,2.91,Post-monsoon
+2024-10-14 13:51:11.336535,Samastipur,30.06,47,1010,broken clouds,1.7,Post-monsoon
+2024-10-14 13:51:11.659528,Janjgir,31.22,60,1009,scattered clouds,1.58,Post-monsoon
+2024-10-14 13:51:11.983491,Kanker,31.68,54,1009,broken clouds,1.58,Post-monsoon
+2024-10-14 13:51:12.307402,Korba,30.62,64,1010,scattered clouds,0.71,Post-monsoon
+2024-10-14 13:51:12.637973,Koria,29.27,59,1014,scattered clouds,6.37,Post-monsoon
+2024-10-14 13:51:12.953285,Narmada,30.75,49,1008,scattered clouds,5.66,Post-monsoon
+2024-10-14 13:51:13.260583,Sirsa,34.94,14,1010,scattered clouds,2.8,Post-monsoon
+2024-10-14 13:51:15.376651,Rewa,32.32,41,1010,few clouds,2.67,Post-monsoon
+2024-10-14 13:51:15.686493,Shivpuri,29.21,52,1011,broken clouds,1.88,Post-monsoon
+2024-10-14 13:51:16.019451,Sidhi,31.65,45,1010,few clouds,2.17,Post-monsoon
+2024-10-14 13:51:16.351285,Parbhani,30.95,59,1009,broken clouds,2.77,Post-monsoon
+2024-10-14 13:51:16.989574,Dudu,32.97,29,1010,scattered clouds,2.59,Post-monsoon
+2024-10-14 13:51:17.325773,Jhalawar,31.23,49,1010,overcast clouds,2.32,Post-monsoon
+2024-10-14 13:51:17.653322,Sanchore,34.69,40,1009,few clouds,0.66,Post-monsoon
+2024-10-14 13:51:18.217740,Adilabad,31.16,64,1009,broken clouds,1.84,Post-monsoon
+2024-10-14 13:51:19.333639,Kishanganj,30.96,50,1009,scattered clouds,0.28,Post-monsoon
+2024-10-14 13:51:21.202445,Raigarh,31.0,60,1009,broken clouds,1.49,Post-monsoon
+2024-10-14 13:51:21.550175,Tumkur,22.27,82,1010,overcast clouds,2.17,Post-monsoon
+2024-10-14 13:51:21.877626,Jhabua,30.88,59,1009,overcast clouds,2.77,Post-monsoon
+2024-10-14 13:51:22.182749,Jalgaon,31.4,59,1009,overcast clouds,2.59,Post-monsoon
+2024-10-14 13:51:22.503183,Kalimpong,25.41,82,1011,overcast clouds,1.96,Post-monsoon
+2024-10-14 13:51:23.223722,Mungeli,30.98,61,1009,scattered clouds,1.77,Post-monsoon
+2024-10-14 13:51:23.962699,Surajpur,32.15,41,1011,clear sky,2.47,Post-monsoon
+2024-10-14 13:51:24.313305,Bellary,24.73,81,1010,light rain,3.78,Post-monsoon
