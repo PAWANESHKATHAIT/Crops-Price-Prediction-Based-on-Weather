@@ -182,20 +182,3 @@ print("Final DataFrame:")
 print(weather_df)
 
 
-# In[8]:
-
-
-# Function to schedule the job
-schedule.every().day.at("08:00").do(job)  # Set to run daily at 08:00 AM
-
-
-# In[ ]:
-
-
-# Run the scheduled jobs
-while True:
-    schedule.run_pending()
-    time.sleep(1)  # Wait for one second before checking again
-
-
-
