@@ -1,5 +1,0 @@
-1. jupyter nbconvert --to script Weather_realtime_data_pipeline.ipynb
-2. schtasks /create /tn "WeatherDataFetcherdelay" /tr "python C:\Users\pawan\data 
-   analysis\Crops_price_predection\Real_time_weather_data_pipeline\Weather_realtime_data_pipeline.py" /sc daily /st 08:00
-3. schtasks /delete /tn "WeatherDataFetcherdelay"
-
