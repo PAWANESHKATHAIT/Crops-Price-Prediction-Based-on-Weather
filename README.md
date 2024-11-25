@@ -34,6 +34,7 @@ Data Processing: Pandas and NumPy for data manipulation.
 Machine Learning: Scikit-learn for model development.
 Data Pipeline: Python libraries for job scheduling and API data fetching.
 APIs: OpenWeatherMap and data.gov.in for data collection.
+
 Future Scope
 The project envisions significant expansions, including:
 
@@ -41,4 +42,3 @@ Mobile Application Development: A cross-platform mobile app (built with Flutter 
 Language Translation: Integration of Google Cloud Translation API to support regional languages, making the platform more accessible to non-English-speaking farmers.
 Real-Time Crop Data: Incorporating datasets on soil conditions, irrigation levels, and crop health to further refine prediction accuracy.
 Conclusion
-This project combines the power of machine learning, real-time data integration, and user-friendly web interfaces to deliver a valuable tool for stakeholders in the agricultural sector. By predicting commodity prices based on real-time weather and historical trends, the system empowers users to make informed decisions, reducing uncertainty in the market. With planned future enhancements, the platform aims to become an indispensable resource for the agricultural community.
